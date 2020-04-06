@@ -1,0 +1,89 @@
+/*商品区块--精彩活动*/
+.body{
+    width: 1200px;
+    margin:77px auto 30px auto;
+}
+
+.title{
+    border-bottom: 1px solid #c1c1c1;
+    padding-bottom:17px;
+    margin-top:55px;
+    margin-bottom: 45px;
+}
+
+.title-text{
+    font-size: 20px;
+    color:#363636;
+}
+
+.more{
+    font-size: 18px;
+    margin-right: 5px;
+    color:#868686;
+}
+
+
+.content>a {
+    float: left;
+    margin: 0 17px 17px 0;
+    padding: 14px;
+    background-color: #ffffff;
+}
+
+.content>a:last-child{
+    margin-right: 0;
+}
+
+/*商品区块--精选活动*/
+.subject img{
+    width:556px;
+    height:276px;
+}
+
+.goods-group{
+    border: 1px solid #f6f6f6;
+}
+
+.goods{
+    background-color: #fff;
+    width: 160px;
+    margin:0 12px;
+    position: relative;
+}
+
+.goods>img{
+    width:125px;
+    height:125px;
+    display: block;
+    margin:7px auto;
+}
+
+.goods-title{
+    font-size: 12px;
+    text-align: center;
+    height:36px;
+    color:#111;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.goods-price {
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.group-price{
+    color: #111;
+    font-size: 16px;
+}
+
+.price-mark{
+    font-size: 14px;
+    color:#cbcbcb;
+    text-decoration: line-through;
+}
+
+.subject:nth-child(2n){
+    margin-right:0;
+}

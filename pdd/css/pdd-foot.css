@@ -1,0 +1,101 @@
+/*底部*/
+.pdd-foot{
+    background-color: #fff;
+    padding-top: 60px;
+    width:100%;
+}
+
+.pdd-foot .pdd-foot-head{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.head-group{
+    width: 666px;
+    margin-top: 20px;
+}
+
+.group-item{
+    display: inline-block;
+    width: 162px;
+    margin-right: 60px;
+}
+
+.group-item img{
+    width: 162px;
+    height: 162px;
+}
+
+.group-item p{
+    margin: 8px auto;
+    color: #4d4d4d;
+    font-size: 14px;
+    text-align: center;
+}
+
+.head-info{
+    border-left: 1px solid #4d4d4d;
+    padding-left: 50px;
+}
+
+.info-title{
+    color:#4d4d4d;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.info-details{
+    color: #4d4d4d;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 20px;
+}
+
+.tel{
+    text-align:right;
+}
+
+.pdd-nav{
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.pdd-nav-list-item{
+    display: inline-block;
+    border-right: 1px solid #c1c1c1;
+    cursor: pointer;
+}
+
+.pdd-nav-list-item a{
+    color: #c6c6c6;
+    font-size: 16px;
+    margin: 0 6px;
+}
+
+.pdd-nav-list-item:last-child{
+    border-right: none;
+}
+
+.copyright{
+    background-color: #3f3e3e;
+    height: 130px;
+    font-size: 14px;
+    text-align: center;
+    color: #b1b1b1;
+}
+
+.pdd-foot-cr{
+    padding-top:27px;
+}
+
+.pdd-foot-medicine{
+    padding-top: 17px;
+}
+
+.pdd-foot-record{
+    line-height: 25px;
+    padding-top: 17px;
+}
+
