@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>放大镜</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #box{
+            width: 1300px;
+            height: 600px;
+            margin: 60px;
+            border: 1px solid #ccc;
+        }
+        #min{
+            float: left;
+            width: 400px;
+            height: 400px;
+            position: relative;
+        }
+        #max{
+            position: relative;
+            float: right;
+            width: 400px;
+            height: 400px;
+            overflow: hidden;
+            display: none;
+        }
+        b{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            opacity: 0.5;
+            display: none;
+        }
+        #imgs{
+            position: absolute;
+            top:0;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <div id="min"><img src="img/min.jpg"><b id="bb"></b></div>
+        <div id="max"><img src="img/max.jpg" id="imgs"></div>
+    </div>
+
+    <script src="magnifier.js"></script>
+</body>
+</html>
